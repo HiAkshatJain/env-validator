@@ -1,5 +1,5 @@
 {
-  "name": "env-validator",
+  "name": "validate-dotenv",
   "version": "1.0.0",
   "description": "A TypeScript library that simplifies the management of environment variables in Node.js applications. This package provides a robust way to load and validate environment variables from .env files, ensuring required variables are present and correctly typed. It supports default values and type checking (string, number, boolean), helping developers maintain clean and reliable configuration management in their projects.",
   "main": "index.js",
@@ -21,10 +21,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HiAkshatJain/env-validator"
+    "url": "git+https://github.com/HiAkshatJain/validate-dotenv"
   },
-  "homepage": "https://github.com/HiAkshatJain/env-validator#readme",
+  "homepage": "https://github.com/HiAkshatJain/validate-dotenv#readme",
   "bugs": {
-    "url": "https://github.com/HiAkshatJain/env-validator/issues"
-  }
+    "url": "https://github.com/HiAkshatJain/validate-dotenv/issues"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "environment",
+    "variables",
+    "validation",
+    "typescript",
+    "configuration",
+    "nodejs",
+    "package"
+  ]
 }

@@ -1,4 +1,4 @@
-# env-validator
+# validate-dotenv
 
 A TypeScript library that simplifies the management of environment variables in Node.js applications. This package provides a robust way to load and validate environment variables from `.env` files, ensuring required variables are present and correctly typed.
 
@@ -11,7 +11,7 @@ A TypeScript library that simplifies the management of environment variables in 
 ## Installation
 
 ```bash
-npm install env-validator
+npm install validate-dotenv
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install env-validator
 ### Importing the Library
 
 ```typescript
-import { loadEnv, validateEnv } from "env-validator";
+import { loadEnv, validateEnv } from "validate-dotenv";
 ```
 
 ### Loading Environment Variables
@@ -77,7 +77,7 @@ Validates the loaded environment variables against the provided configuration.
 Here’s a complete example that loads and validates environment variables:
 
 ```typescript
-import { loadEnv, validateEnv } from "env-validator";
+import { loadEnv, validateEnv } from "validate-dotenv";
 
 // Load the environment variables from a .env file
 loadEnv(".env");
